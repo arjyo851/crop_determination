@@ -2,11 +2,12 @@ import numpy as np
 import pandas as pd
 from flask import Flask, request, render_template
 import joblib
+import os
 
 #Creating the flask app
 app = Flask(__name__)
-
-model = joblib.load("C:/Users/KIIT/Desktop/Resume/ML-App3-Crop-Determining-AI-App-master/Crop-Recommender.pkl")
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+model = joblib.load('https://github.com/arjyo851/crop_determination/blob/main/Crop-Recommender.pkl')
 
 @app.route('/')
 def home():
