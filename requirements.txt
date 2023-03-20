@@ -1,11 +1,11 @@
 Flask
 gunicorn
-Jinja2
 joblib
 matplotlib
 numpy
 pandas
 Pillow
-python-dateutil
-pytz
-seaborn
+pyparsing
+seaborn==0.12.2
+sklearn
+Werkzeug
