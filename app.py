@@ -7,7 +7,8 @@ import os
 #Creating the flask app
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-model = joblib.load('https://github.com/arjyo851/crop_determination/blob/main/Crop-Recommender.pkl')
+print(BASE_DIR)
+model = joblib.load(os.path.join(os.getcwd(),'Crop-Recommender.pkl'))
 
 @app.route('/')
 def home():
