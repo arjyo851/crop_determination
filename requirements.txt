@@ -3,7 +3,7 @@ Flask
 gunicorn
 joblib
 matplotlib
-numpy2
+numpy
 pandas
 Pillow
 scikit-learn
