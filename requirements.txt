@@ -7,7 +7,6 @@ numpy
 pandas
 Pillow
 scikit-learn
-scipy1
 seaborn
 threadpoolctl
 Werkzeug
