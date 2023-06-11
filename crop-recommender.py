@@ -129,20 +129,6 @@ plt.title("Boxplot to show how temperature effects different kinds of crop")
 plt.xlabel("CROPS")
 plt.ylabel("TEMPERATURE")
 
-# Plot 11.1 
-plt.figure(figsize=(20,10))
-sns.barplot(x="crop", y="temperature", data=crop_df)
-plt.title("Barplot to show how temperature effects different kinds of crop")
-plt.xlabel("CROPS")
-plt.ylabel("TEMPERATURE") 
-
-# Plot 11.2
-plt.figure(figsize=(20,10))
-sns.boxplot(x="crop", y="P", data=crop_df)
-plt.title("Boxplot to show how temperature effects different kinds of crop")
-plt.xlabel("CROPS")
-plt.ylabel("TEMPERATURE")
-
 # Plot 12.1 
 plt.figure(figsize=(20,10))
 sns.barplot(x="crop", y="humidity", data=crop_df)
